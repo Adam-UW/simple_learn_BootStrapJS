@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://bootswatch.com/4/solar/bootstrap.min.css">
+    <!-- CSS-->
+    <link rel="stylesheet" href="./css/blog_post_style.css"/>
+ 
+    <!-- BootStrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
+    <!-- FontAwesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+
+
+    <title>Hello, world!</title>
+
+</head>
+<body style="margin: 2rem;">
+    <form action="">
+    <div class="form-group">
+        <h1>Create a blog</h1>
+        <label for="title">Title</label>
+        <input required value=" " type="text" name="title" id="title" class="blog-title form-control">
+      </div>
+      <div class="form-group">
+        <label for="description">Author Name</label>
+        <textarea name="description" id="description" class="blog-description form-control"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="markdown">Markdown</label>
+        <textarea required name="markdown" id="markdown" class="blog-markdown form-control"> </textarea>
+      </div>
+      <a href="/" class="btn btn-secondary">Cancel</a>
+      <button type="submit" class="blog-submit btn btn-primary">Save</button>
+    </form>
+
+<!-- For the card -->
+<section class=" todo-list" >
+      <div class="card">
+        <div class="adams-x card-body">
+          <h5 class="card-title">What I Wish I Had Known Before Writing My First Book!</h5>
+          <h6 class="card-subtitle mb-2 text-muted">By Shandi</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          
+         <button class="delete-post btn btn-lg btn-danger">delete</button>
+        </div>
+      </div>
+    </section>
+
+    <a style="text-align: right;" href="./index.html"><i class="fas fa-arrow-left"></i> Return to main page</a>
+    
+
+
+      <script src="./app_blog.js"></script>
+</body>
+</html>
